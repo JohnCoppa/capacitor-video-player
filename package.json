@@ -1,8 +1,8 @@
 {
   "name": "capacitor-video-player",
-  "version": "2.4.5-2",
+  "version": "2.4.7",
   "description": "Capacitor Video Player Plugin",
-  "homepage": "https://github.com/jepiqueau/capacitor-video-player",
+  "homepage": "https://github.com/JohnCoppa/capacitor-video-player.git",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
   "scripts": {
@@ -16,22 +16,22 @@
     "docgen": "docgen --api CapacitorVideoPlayerPlugin --output-readme docs/API.md",
     "prepublishOnly": "npm run build"
   },
-  "author": "Jean Pierre Quéau",
+  "author": "John Coppa",
   "license": "MIT",
   "dependencies": {
-    "@capacitor/cli": "^2.4.5",
-    "@types/hls.js": "^0.13.1",
+    "@capacitor/cli": "^2.4.7",
+    "@types/hls.js": "^0.13.3",
     "hls.js": "^0.14.17"
   },
   "devDependencies": {
-    "@capacitor/android": "^2.4.5",
-    "@capacitor/core": "^2.4.5",
-    "@capacitor/docgen": "0.0.14",
-    "@capacitor/ios": "^2.4.5",
+    "@capacitor/android": "^2.4.7",
+    "@capacitor/core": "^2.4.7",
+    "@capacitor/docgen": "0.0.16",
+    "@capacitor/ios": "^2.4.7",
     "@ionic/prettier-config": "^1.0.1",
     "@ionic/swiftlint-config": "^1.1.2",
     "@rollup/plugin-node-resolve": "^11.0.1",
-    "@types/node": "^14.14.19",
+    "@types/node": "^14.14.34",
     "husky": "^4.3.6",
     "np": "^7.2.0",
     "prettier": "^2.2.1",
@@ -48,7 +48,7 @@
     }
   },
   "peerDependencies": {
-    "@capacitor/core": "2.4.5"
+    "@capacitor/core": "2.4.7"
   },
   "files": [
     "dist/",
@@ -75,9 +75,9 @@
   "swiftlint": "@ionic/swiftlint-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jepiqueau/capacitor-video-player.git"
+    "url": "https://github.com/JohnCoppa/capacitor-video-player.git"
   },
   "bugs": {
-    "url": "https://github.com/jepiqueau/capacitor-video-player.git/issues"
+    "url": "https://github.com/JohnCoppa/capacitor-video-player.git/issues"
   }
 }
